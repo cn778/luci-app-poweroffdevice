@@ -1,8 +1,3 @@
-# 
-# provides Web UI to shut down (power off) your device. 
-# routers are listed at https://github.com/sirpdboy/luci-app-poweroffdevice
-# This is free software, licensed under the GNU General Public License v3.
-
 msgid "PowerOff"
 msgstr "关机"
 
