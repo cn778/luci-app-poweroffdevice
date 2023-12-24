@@ -12,7 +12,7 @@ h2 {
 
 </style>
 
-<h2 name="content"><%:Power Off Device%></h2>
+<h2 name="content"><%:Reboot eth0%></h2>
 <p><%:Turn off the power to the device you are using%></p>
 <p class="alert-message warning"><%:WARNING: Power off might result in a reboot on a device which not support power off.%></p>
 
@@ -36,7 +36,7 @@ h2 {
 		img.onerror = check;
 		img.src = "<%=resource%>/icons/loading.gif?" + Math.random();
 
-		document.getElementById("pw-message").innerHTML ="<%:Device shutdown complete!%>";
+		document.getElementById("pw-message").innerHTML ="<%:Device reboot eth0 complete!%>";
 	}
 
 	function pw(button) {
@@ -47,11 +47,11 @@ h2 {
 	}
 //]]></script>
 
-<input class="cbi-button cbi-button-apply" type="button" value="<%:Perform Power Off%>" onclick="pw(this)" />
+<input class="cbi-button cbi-button-apply" type="button" value="<%:Perform Reboot eth0%>" onclick="pw(this)" />
 
 <p class="alert-message" style="display:none">
 	<img src="<%=resource%>/icons/loading.gif" alt="<%:Loading%>" style="vertical-align:middle" />
-	<span id="pw-message"><%:Shutting Down...%></span>
+	<span id="pw-message"><%:Reboot eht0...%></span>
 </p>
 
 <%+footer%>
