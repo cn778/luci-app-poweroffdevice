@@ -1,6 +1,9 @@
 msgid "PowerOff"
 msgstr "关机"
 
+msgid "RebootEth0"
+msgstr "重启网卡"
+
 msgid "Power Off Device"
 msgstr "设备关机"
 
